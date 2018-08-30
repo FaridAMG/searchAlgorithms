@@ -23,6 +23,8 @@ vector
 /home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/main.cpp
 iostream
 -
+secuentialSearch/secuentialSearch.h
+/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/secuentialSearch/secuentialSearch.h
 
 /home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/secuentialSearch/secuentialSearch.cpp
 secuentialSearch.h

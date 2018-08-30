@@ -13,14 +13,14 @@ void secuentialSearch::setNumberToFind(int numberToFind) {
 bool secuentialSearch::doesItExsist() {
 
     std::list<int>::iterator it;
-    int iterator = -1;
+    int iter = -1;
     std::list<int> lts = listToSearch;
 
-    for(it = lts.begin(); it != lts.end(); it++){
+    while(lts.size()>0){
 
-        iterator ++;
+        iter ++;
         if(lts.front() == numberToFind){
-            slot = iterator;
+            slot = iter;
             return true;
         }
         lts.pop_front();
@@ -29,6 +29,8 @@ bool secuentialSearch::doesItExsist() {
 
     return false;
 }
+
+
 
 int secuentialSearch::FindSlotOfNumber() {
 

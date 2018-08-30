@@ -12,6 +12,15 @@ binarySearch::binarySearch(const std::vector<int> &listToSearch) : listToSearch(
 
 }
 
+binarySearch::binarySearch(const std::list<int> &listToSearch) {
+
+    this->listToSearch.reserve(listToSearch.size());
+    std::copy(std::begin(listToSearch), std::end(listToSearch), std::back_inserter(this->listToSearch));
+
+    sortList();
+
+}
+
 void binarySearch::sortList() {
 
     std::sort(listToSearch.begin(),listToSearch.end());
@@ -55,5 +64,7 @@ bool binarySearch::doesItExistAux(double p1, double p2, double mid) {
 
     return false;
 }
+
+
 
 

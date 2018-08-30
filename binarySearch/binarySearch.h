@@ -8,6 +8,7 @@
 
 #include <list>
 #include <vector>
+#include "binarySearch.cpp"
 
 class binarySearch {
 
@@ -16,6 +17,8 @@ class binarySearch {
 
 public:
     explicit binarySearch(const std::vector<int> &listToSearch);
+
+    explicit binarySearch(const std::list<int> &listToSearch);
 
     void setNumberToFind(int numberToFind);
 
