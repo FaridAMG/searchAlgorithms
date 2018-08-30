@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/binarySearch/binarySearch.cpp
+algorithm
+-
+cmath
+-
+binarySearch.h
+/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/binarySearch/binarySearch.h
+
+/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/binarySearch/binarySearch.h
+list
+-
+vector
+-
+
+/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/main.cpp
+iostream
+-
+
+/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/secuentialSearch/secuentialSearch.cpp
+secuentialSearch.h
+/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/secuentialSearch/secuentialSearch.h
+
+/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/secuentialSearch/secuentialSearch.h
+list
+-
+
