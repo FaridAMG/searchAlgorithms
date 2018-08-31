@@ -22,17 +22,18 @@ int main() {
     lst.push_back(61);
     lst.push_back(26);
 
-/*
+
     auto* sec = new secuentialSearch(lst);
     sec->setNumberToFind(123);
     if(sec->doesItExsist()){
         std::cout<< "its true by secuential" <<std::endl;
+        std::cout<< "in slot..."<< sec->FindSlotOfNumber() << std::endl;
     }else{
         std::cout<< "its false by secuential" <<std::endl;
     }
-*/
 
-    auto binar = new binarySearch();
+
+
 
 
     return 0;

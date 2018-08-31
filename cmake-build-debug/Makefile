@@ -150,6 +150,33 @@ binarySearch/binarySearch.cpp.s:
 	$(MAKE) -f CMakeFiles/searchAlgorithms.dir/build.make CMakeFiles/searchAlgorithms.dir/binarySearch/binarySearch.cpp.s
 .PHONY : binarySearch/binarySearch.cpp.s
 
+hash/Hash.o: hash/Hash.cpp.o
+
+.PHONY : hash/Hash.o
+
+# target to build an object file
+hash/Hash.cpp.o:
+	$(MAKE) -f CMakeFiles/searchAlgorithms.dir/build.make CMakeFiles/searchAlgorithms.dir/hash/Hash.cpp.o
+.PHONY : hash/Hash.cpp.o
+
+hash/Hash.i: hash/Hash.cpp.i
+
+.PHONY : hash/Hash.i
+
+# target to preprocess a source file
+hash/Hash.cpp.i:
+	$(MAKE) -f CMakeFiles/searchAlgorithms.dir/build.make CMakeFiles/searchAlgorithms.dir/hash/Hash.cpp.i
+.PHONY : hash/Hash.cpp.i
+
+hash/Hash.s: hash/Hash.cpp.s
+
+.PHONY : hash/Hash.s
+
+# target to generate assembly for a file
+hash/Hash.cpp.s:
+	$(MAKE) -f CMakeFiles/searchAlgorithms.dir/build.make CMakeFiles/searchAlgorithms.dir/hash/Hash.cpp.s
+.PHONY : hash/Hash.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -216,6 +243,9 @@ help:
 	@echo "... binarySearch/binarySearch.o"
 	@echo "... binarySearch/binarySearch.i"
 	@echo "... binarySearch/binarySearch.s"
+	@echo "... hash/Hash.o"
+	@echo "... hash/Hash.i"
+	@echo "... hash/Hash.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

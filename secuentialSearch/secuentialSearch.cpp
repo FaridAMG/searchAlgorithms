@@ -12,7 +12,7 @@ void secuentialSearch::setNumberToFind(int numberToFind) {
 
 bool secuentialSearch::doesItExsist() {
 
-    std::list<int>::iterator it;
+    //std::list<int>::iterator it;
     int iter = -1;
     std::list<int> lts = listToSearch;
 

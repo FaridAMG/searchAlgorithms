@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/searchAlgorithms.dir/main.cpp.o CMakeFiles/searchAlgorithms.dir/secuentialSearch/secuentialSearch.cpp.o CMakeFiles/searchAlgorithms.dir/binarySearch/binarySearch.cpp.o  -o searchAlgorithms 
+/usr/bin/c++  -g   CMakeFiles/searchAlgorithms.dir/main.cpp.o CMakeFiles/searchAlgorithms.dir/secuentialSearch/secuentialSearch.cpp.o CMakeFiles/searchAlgorithms.dir/binarySearch/binarySearch.cpp.o CMakeFiles/searchAlgorithms.dir/hash/Hash.cpp.o  -o searchAlgorithms 

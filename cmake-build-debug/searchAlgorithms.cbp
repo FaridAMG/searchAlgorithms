@@ -90,6 +90,12 @@
 		<Unit filename="/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/binarySearch/binarySearch.h">
 			<Option target="searchAlgorithms"/>
 		</Unit>
+		<Unit filename="/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/hash/Hash.cpp">
+			<Option target="searchAlgorithms"/>
+		</Unit>
+		<Unit filename="/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/hash/Hash.h">
+			<Option target="searchAlgorithms"/>
+		</Unit>
 		<Unit filename="/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/main.cpp">
 			<Option target="searchAlgorithms"/>
 		</Unit>

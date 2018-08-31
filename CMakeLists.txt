@@ -3,4 +3,4 @@ project(searchAlgorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(searchAlgorithms main.cpp secuentialSearch/secuentialSearch.cpp secuentialSearch/secuentialSearch.h binarySearch/binarySearch.cpp binarySearch/binarySearch.h)
+add_executable(searchAlgorithms main.cpp secuentialSearch/secuentialSearch.cpp secuentialSearch/secuentialSearch.h binarySearch/binarySearch.cpp binarySearch/binarySearch.h hash/Hash.cpp hash/Hash.h)

@@ -15,10 +15,14 @@ class binarySearch {
     std::vector<int> listToSearch;
     int numberToFind = -10;
 
+    void sortList();
+
+    bool doesItExistAux(double p1, double p2, double mid);
+
 public:
     explicit binarySearch(const std::vector<int> &listToSearch);
 
-    explicit binarySearch(const std::list<int> &listToSearch);
+    explicit binarySearch(const std::list<int> &lts);
 
     void setNumberToFind(int numberToFind);
 
@@ -26,10 +30,8 @@ public:
 
 
 
-private:
-    void sortList();
 
-    bool doesItExistAux(double p1, double p2, double mid);
+
 
 };
 

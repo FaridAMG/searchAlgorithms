@@ -4,6 +4,8 @@
 CMakeFiles/searchAlgorithms.dir/binarySearch/binarySearch.cpp.o: ../binarySearch/binarySearch.cpp
 CMakeFiles/searchAlgorithms.dir/binarySearch/binarySearch.cpp.o: ../binarySearch/binarySearch.h
 
+CMakeFiles/searchAlgorithms.dir/main.cpp.o: ../binarySearch/binarySearch.cpp
+CMakeFiles/searchAlgorithms.dir/main.cpp.o: ../binarySearch/binarySearch.h
 CMakeFiles/searchAlgorithms.dir/main.cpp.o: ../main.cpp
 CMakeFiles/searchAlgorithms.dir/main.cpp.o: ../secuentialSearch/secuentialSearch.h
 

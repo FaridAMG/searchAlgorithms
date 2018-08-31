@@ -19,12 +19,16 @@ list
 -
 vector
 -
+binarySearch.cpp
+/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/binarySearch/binarySearch.cpp
 
 /home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/main.cpp
 iostream
 -
 secuentialSearch/secuentialSearch.h
 /home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/secuentialSearch/secuentialSearch.h
+binarySearch/binarySearch.h
+/home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/binarySearch/binarySearch.h
 
 /home/farida/Documents/gitKraken repositories/searchAlgorithms/searchAlgorithms/secuentialSearch/secuentialSearch.cpp
 secuentialSearch.h

@@ -12,10 +12,10 @@ binarySearch::binarySearch(const std::vector<int> &listToSearch) : listToSearch(
 
 }
 
-binarySearch::binarySearch(const std::list<int> &listToSearch) {
+binarySearch::binarySearch(const std::list<int> &lts) {
 
-    this->listToSearch.reserve(listToSearch.size());
-    std::copy(std::begin(listToSearch), std::end(listToSearch), std::back_inserter(this->listToSearch));
+    this->listToSearch.reserve(lts.size());
+    std::copy(std::begin(lts), std::end(lts), std::back_inserter(this->listToSearch));
 
     sortList();
 
